@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const YANDEX_DICTIONARY_API_KEY = "ВСТАВЬТЕ_НОВЫЙ_КЛЮЧ_ЗДЕСЬ";
+const YANDEX_DICTIONARY_API_KEY = "dict.1.1.20261021T080718Z.abacdb6c9d3bbf41.16c931da09e49d94ebe4a1c1d6529c64e160d802";
 
 const doTranslation = (input, languageCode) => {
   return new Promise((resolve, reject) => {
